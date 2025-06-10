@@ -11,18 +11,17 @@
 
 
 
-    <link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/DT-Portfolio/css/style.css">
 
 
-  <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml">
+  <link rel="icon" href="/DT-Portfolio/favicon.svg" sizes="any" type="image/svg+xml">
 
 
 
   
   
   <script>
-    	
-		/* Test early for local storage color scheme value to avoid FOIT */
+    /* Test early for local storage color scheme value to avoid FOIT */
 const currentColorscheme = localStorage.getItem("mv-color-scheme");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 let isDark;
@@ -65,18 +64,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
   </script>
   
   <script type="module">
-    	
-		import PhotoSwipeLightbox from "/assets/photoswipe/photoswipe-lightbox.esm.js";
-import PhotoSwipeDynamicCaption from '/assets/photoswipe/photoswipe-dynamic-caption-plugin.esm.js';
-
-//import "photoswipe/style.css";
+    import PhotoSwipeLightbox from "/DT-Portfolio/assets/photoswipe/photoswipe-lightbox.esm.js";
+import PhotoSwipeDynamicCaption from "/DT-Portfolio/assets/photoswipe/photoswipe-dynamic-caption-plugin.esm.js";
 
 const lightbox = new PhotoSwipeLightbox({
   gallery: "#my-gallery",
   children: "a",
-  pswpModule: () => import("/assets/photoswipe/photoswipe.esm.js")
+  pswpModule: () => import("/DT-Portfolio/assets/photoswipe/photoswipe.esm.js"),
 });
-
 
 const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
   // Plugins options, for example:
@@ -84,6 +79,8 @@ const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
 });
 
 lightbox.init();
+
+
 
 
 
@@ -117,7 +114,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 });
 */
-
+  
   </script>
    
   <script>
@@ -192,7 +189,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
   
   
-  <link rel="icon" href="/favicon-48.png" type="image/png">
+  <link rel="icon" href="/DT-Portfolio/favicon-48.png" type="image/png">
 
 
 
@@ -205,11 +202,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
   
 
     
-
-
-
-
-
 
 
 
@@ -232,95 +224,34 @@ window.addEventListener("DOMContentLoaded", (event) => {
 		
 		<div class="header-flexbox ">
 			
-			<a href="/" class="link-nostyle header-flexbox-title" >
+			<a href="/DT-Portfolio/" class="link-nostyle header-flexbox-title">
 			
 				
 					<span class="site-title" style="display: none;">Devin Todd</span>
 				
 
-				<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="36.165mm"
-   height="26.467mm"
-   version="1.1"
-   viewBox="0 0 36.165 26.467"
-   id="svg22"
-   sodipodi:docname="Logo.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
-  <metadata
-     id="metadata28">
+				
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="36.165mm" height="26.467mm" version="1.1" viewBox="0 0 36.165 26.467" id="svg22" sodipodi:docname="Logo.svg" inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata id="metadata28">
     <rdf:RDF>
-      <cc:Work
-         rdf:about="">
+      <cc:Work rdf:about="">
         <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <defs
-     id="defs26" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="3840"
-     inkscape:window-height="2066"
-     id="namedview24"
-     showgrid="false"
-     inkscape:zoom="8"
-     inkscape:cx="51.843467"
-     inkscape:cy="74.567859"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg22" />
-  <g
-     transform="translate(-70.845 -117.04)"
-     id="g20">
-    <path
-       d="m85.979 123.92h-4.572v1.1515q0 0.4572 0.33867 0.79586 0.33867 0.33867 0.8128 0.33867t0.79587-0.33867q0.33867-0.33866 0.33867-0.79586h2.286q0 0.7112-0.27093 1.3377-0.27093 0.6096-0.72813 1.0837-0.4572 0.4572-1.0837 0.72814-0.62653 0.27093-1.3377 0.27093t-1.3377-0.27093q-0.62653-0.27094-1.1007-0.72814-0.4572-0.47413-0.72813-1.0837-0.27093-0.62653-0.27093-1.3377v-4.5889q0-0.7112 0.27093-1.3377 0.27093-0.62653 0.72813-1.0837 0.47413-0.47414 1.1007-0.74507 0.62653-0.27093 1.3377-0.27093t1.3377 0.27093 1.0837 0.74507q0.4572 0.4572 0.72813 1.0837 0.27093 0.62653 0.27093 1.3377zm-2.286-3.4375q0-0.47413-0.33867-0.8128-0.32173-0.33866-0.79587-0.33866-0.47413 0-0.8128 0.33866-0.33867 0.33867-0.33867 0.8128v1.1515h2.286z"
-       id="path2" />
-    <path
-       d="m89.688 117.04 1.1007 6.35 1.1007-6.35h2.286l-2.2013 11.447h-2.3537l-2.2183-11.447z"
-       id="path4" />
-    <path
-       d="m95.591 120.5h2.286v7.9923h-2.286zm0-2.3029c0-0.32738 0.10724-0.59831 0.32173-0.8128 0.21449-0.22578 0.48542-0.33866 0.8128-0.33866s0.59831 0.11288 0.8128 0.33866c0.22578 0.21449 0.33867 0.48542 0.33867 0.8128s-0.11289 0.60396-0.33867 0.82973c-0.21449 0.21449-0.48542 0.32174-0.8128 0.32174s-0.59831-0.10725-0.8128-0.32174c-0.21449-0.22577-0.32173-0.50235-0.32173-0.82973z"
-       id="path6" />
-    <path
-       d="m 103.59,117.04 c 0.47413,0 0.92004,0.0903 1.3377,0.27093 0.41769,0.18062 0.77893,0.42898 1.0837,0.74507 0.3048,0.3048 0.54752,0.66604 0.72814,1.0837 0.18062,0.41766 0.27093,0.8636 0.27093,1.3377 v 9.47893 h -2.286 v -9.47893 c 0,-0.31609 -0.11289,-0.58702 -0.33867,-0.8128 -0.21449,-0.22577 -0.47977,-0.33866 -0.79586,-0.33866 -0.31609,0 -0.58702,0.11289 -0.8128,0.33866 -0.22578,0.22578 -0.33867,0.49672 -0.33867,0.8128 v 8.0095 h -2.286 v -11.447 z"
-       id="path8"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccssccscscscccc" />
-    <path
-       d="m79.121 129.79h6.858v2.286h-2.286v11.43h-2.286v-11.43h-2.286z"
-       id="path10" />
-    <path
-       d="m88.092 132.06q0.7112 0 1.3377 0.27094 0.62653 0.27093 1.0837 0.74506 0.4572 0.4572 0.72813 1.0837 0.27093 0.62653 0.27093 1.3377v4.5889q0 0.7112-0.27093 1.3377-0.27093 0.6096-0.72813 1.0837-0.4572 0.4572-1.0837 0.72813-0.62653 0.27094-1.3377 0.27094t-1.3377-0.27094q-0.62653-0.27093-1.1007-0.72813-0.4572-0.47413-0.72813-1.0837-0.27093-0.62654-0.27093-1.3377v-4.5889q0-0.7112 0.27093-1.3377 0.27093-0.62654 0.72813-1.0837 0.47413-0.47413 1.1007-0.74506 0.62653-0.27094 1.3377-0.27094zm1.1345 3.4375q0-0.47413-0.33867-0.8128-0.32173-0.33867-0.79587-0.33867-0.47413 0-0.8128 0.33867t-0.33867 0.8128v4.5889q0 0.4572 0.33867 0.79587t0.8128 0.33867 0.79587-0.33867q0.33867-0.33867 0.33867-0.79587z"
-       id="path12" />
-    <path
-       d="m96.976 135.52c0-0.3048-0.11289-0.57009-0.33867-0.79586-0.21449-0.22578-0.47978-0.33867-0.79587-0.33867s-0.58702 0.11289-0.8128 0.33867c-0.22578 0.22577-0.33867 0.49106-0.33867 0.79586v4.572c0 0.3048 0.11289 0.57009 0.33867 0.79587s0.49671 0.33867 0.8128 0.33867 0.58138-0.11289 0.79587-0.33867c0.22578-0.22578 0.33867-0.49107 0.33867-0.79587zm2.286 7.9925h-2.286c-0.45637 0-0.8688-2e-3 -1.1345 0-0.47413 0-0.92004-0.0903-1.3377-0.27094-0.41769-0.18062-0.78458-0.42333-1.1007-0.72813-0.3048-0.31609-0.54751-0.67733-0.72813-1.0837-0.18062-0.41769-0.27093-0.86361-0.27093-1.3377v-4.572c0-0.47413 0.09031-0.9144 0.27093-1.3208 0.18062-0.41769 0.42333-0.77893 0.72813-1.0837 0.31609-0.31609 0.68298-0.56444 1.1007-0.74507 0.41769-0.18062 0.8636-0.27093 1.3377-0.27093 0.41769 0 0.79587 0.0677 1.1345 0.2032v-2.5061h2.286z"
-       id="path14" />
-    <path
-       d="m 104.72413,135.52 c 0,-0.3048 -0.11289,-0.57009 -0.33867,-0.79586 -0.21449,-0.22578 -0.47978,-0.33867 -0.79587,-0.33867 -0.31609,0 -0.58702,0.11289 -0.8128,0.33867 -0.22577,0.22577 -0.33866,0.49106 -0.33866,0.79586 v 4.572 c 0,0.3048 0.11289,0.57009 0.33866,0.79587 0.22578,0.22578 0.49671,0.33867 0.8128,0.33867 0.31609,0 0.58138,-0.11289 0.79587,-0.33867 0.22578,-0.22578 0.33867,-0.49107 0.33867,-0.79587 z m 2.286,7.9925 h -2.286 c -0.25582,0 -0.8688,-0.002 -1.1345,0 -0.47413,0 -0.92004,-0.0903 -1.3377,-0.27094 -0.41769,-0.18062 -0.78458,-0.42333 -1.1007,-0.72813 -0.3048,-0.31609 -0.54751,-0.67733 -0.72813,-1.0837 -0.18062,-0.41769 -0.27093,-0.86361 -0.27093,-1.3377 v -4.572 c 0,-0.47413 0.0903,-0.9144 0.27093,-1.3208 0.18062,-0.41769 0.42333,-0.77893 0.72813,-1.0837 0.31609,-0.31609 0.68298,-0.56444 1.1007,-0.74507 0.41769,-0.18062 0.8636,-0.27093 1.3377,-0.27093 0.41769,0 0.79587,0.0677 1.1345,0.2032 v -2.5061 h 2.286 z"
-       id="path16"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="scsssscscsscsccccsscccscccc" />
-    <path
-       d="m70.845 143.51v-26.467h3.4346c0.23687 0 0.54706 0.0902 0.93056 0.27071 0.3835 0.18047 0.76136 0.42862 1.1336 0.74444 0.37222 0.30455 0.68805 0.66549 0.94748 1.0828 0.27071 0.41734 0.40606 0.86288 0.40606 1.3366v19.615c0 0.47374-0.09024 0.91927-0.27071 1.3366-0.18047 0.40606-0.42298 0.767-0.72753 1.0828-0.30455 0.30454-0.66549 0.54705-1.0828 0.72752s-0.86288 0.27071-1.3366 0.27071zm4.5682-23.032c0-0.31582-0.1128-0.58653-0.33838-0.81212-0.21431-0.22559-0.47938-0.33838-0.7952-0.33838-0.16919 0-0.3553-6e-3 -0.55833-0.0169-0.20303-0.0113-0.40042-0.0169-0.59217-0.0169v21.932h1.1505c0.31582 0 0.58089-0.11279 0.7952-0.33838 0.22559-0.22559 0.33838-0.49066 0.33838-0.7952z"
-       id="path18" />
+  <defs id="defs26"></defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="3840" inkscape:window-height="2066" id="namedview24" showgrid="false" inkscape:zoom="8" inkscape:cx="51.843467" inkscape:cy="74.567859" inkscape:window-x="-11" inkscape:window-y="-11" inkscape:window-maximized="1" inkscape:current-layer="svg22"></sodipodi:namedview>
+  <g transform="translate(-70.845 -117.04)" id="g20">
+    <path d="m85.979 123.92h-4.572v1.1515q0 0.4572 0.33867 0.79586 0.33867 0.33867 0.8128 0.33867t0.79587-0.33867q0.33867-0.33866 0.33867-0.79586h2.286q0 0.7112-0.27093 1.3377-0.27093 0.6096-0.72813 1.0837-0.4572 0.4572-1.0837 0.72814-0.62653 0.27093-1.3377 0.27093t-1.3377-0.27093q-0.62653-0.27094-1.1007-0.72814-0.4572-0.47413-0.72813-1.0837-0.27093-0.62653-0.27093-1.3377v-4.5889q0-0.7112 0.27093-1.3377 0.27093-0.62653 0.72813-1.0837 0.47413-0.47414 1.1007-0.74507 0.62653-0.27093 1.3377-0.27093t1.3377 0.27093 1.0837 0.74507q0.4572 0.4572 0.72813 1.0837 0.27093 0.62653 0.27093 1.3377zm-2.286-3.4375q0-0.47413-0.33867-0.8128-0.32173-0.33866-0.79587-0.33866-0.47413 0-0.8128 0.33866-0.33867 0.33867-0.33867 0.8128v1.1515h2.286z" id="path2"></path>
+    <path d="m89.688 117.04 1.1007 6.35 1.1007-6.35h2.286l-2.2013 11.447h-2.3537l-2.2183-11.447z" id="path4"></path>
+    <path d="m95.591 120.5h2.286v7.9923h-2.286zm0-2.3029c0-0.32738 0.10724-0.59831 0.32173-0.8128 0.21449-0.22578 0.48542-0.33866 0.8128-0.33866s0.59831 0.11288 0.8128 0.33866c0.22578 0.21449 0.33867 0.48542 0.33867 0.8128s-0.11289 0.60396-0.33867 0.82973c-0.21449 0.21449-0.48542 0.32174-0.8128 0.32174s-0.59831-0.10725-0.8128-0.32174c-0.21449-0.22577-0.32173-0.50235-0.32173-0.82973z" id="path6"></path>
+    <path d="m 103.59,117.04 c 0.47413,0 0.92004,0.0903 1.3377,0.27093 0.41769,0.18062 0.77893,0.42898 1.0837,0.74507 0.3048,0.3048 0.54752,0.66604 0.72814,1.0837 0.18062,0.41766 0.27093,0.8636 0.27093,1.3377 v 9.47893 h -2.286 v -9.47893 c 0,-0.31609 -0.11289,-0.58702 -0.33867,-0.8128 -0.21449,-0.22577 -0.47977,-0.33866 -0.79586,-0.33866 -0.31609,0 -0.58702,0.11289 -0.8128,0.33866 -0.22578,0.22578 -0.33867,0.49672 -0.33867,0.8128 v 8.0095 h -2.286 v -11.447 z" id="path8" inkscape:connector-curvature="0" sodipodi:nodetypes="cccssccscscscccc"></path>
+    <path d="m79.121 129.79h6.858v2.286h-2.286v11.43h-2.286v-11.43h-2.286z" id="path10"></path>
+    <path d="m88.092 132.06q0.7112 0 1.3377 0.27094 0.62653 0.27093 1.0837 0.74506 0.4572 0.4572 0.72813 1.0837 0.27093 0.62653 0.27093 1.3377v4.5889q0 0.7112-0.27093 1.3377-0.27093 0.6096-0.72813 1.0837-0.4572 0.4572-1.0837 0.72813-0.62653 0.27094-1.3377 0.27094t-1.3377-0.27094q-0.62653-0.27093-1.1007-0.72813-0.4572-0.47413-0.72813-1.0837-0.27093-0.62654-0.27093-1.3377v-4.5889q0-0.7112 0.27093-1.3377 0.27093-0.62654 0.72813-1.0837 0.47413-0.47413 1.1007-0.74506 0.62653-0.27094 1.3377-0.27094zm1.1345 3.4375q0-0.47413-0.33867-0.8128-0.32173-0.33867-0.79587-0.33867-0.47413 0-0.8128 0.33867t-0.33867 0.8128v4.5889q0 0.4572 0.33867 0.79587t0.8128 0.33867 0.79587-0.33867q0.33867-0.33867 0.33867-0.79587z" id="path12"></path>
+    <path d="m96.976 135.52c0-0.3048-0.11289-0.57009-0.33867-0.79586-0.21449-0.22578-0.47978-0.33867-0.79587-0.33867s-0.58702 0.11289-0.8128 0.33867c-0.22578 0.22577-0.33867 0.49106-0.33867 0.79586v4.572c0 0.3048 0.11289 0.57009 0.33867 0.79587s0.49671 0.33867 0.8128 0.33867 0.58138-0.11289 0.79587-0.33867c0.22578-0.22578 0.33867-0.49107 0.33867-0.79587zm2.286 7.9925h-2.286c-0.45637 0-0.8688-2e-3 -1.1345 0-0.47413 0-0.92004-0.0903-1.3377-0.27094-0.41769-0.18062-0.78458-0.42333-1.1007-0.72813-0.3048-0.31609-0.54751-0.67733-0.72813-1.0837-0.18062-0.41769-0.27093-0.86361-0.27093-1.3377v-4.572c0-0.47413 0.09031-0.9144 0.27093-1.3208 0.18062-0.41769 0.42333-0.77893 0.72813-1.0837 0.31609-0.31609 0.68298-0.56444 1.1007-0.74507 0.41769-0.18062 0.8636-0.27093 1.3377-0.27093 0.41769 0 0.79587 0.0677 1.1345 0.2032v-2.5061h2.286z" id="path14"></path>
+    <path d="m 104.72413,135.52 c 0,-0.3048 -0.11289,-0.57009 -0.33867,-0.79586 -0.21449,-0.22578 -0.47978,-0.33867 -0.79587,-0.33867 -0.31609,0 -0.58702,0.11289 -0.8128,0.33867 -0.22577,0.22577 -0.33866,0.49106 -0.33866,0.79586 v 4.572 c 0,0.3048 0.11289,0.57009 0.33866,0.79587 0.22578,0.22578 0.49671,0.33867 0.8128,0.33867 0.31609,0 0.58138,-0.11289 0.79587,-0.33867 0.22578,-0.22578 0.33867,-0.49107 0.33867,-0.79587 z m 2.286,7.9925 h -2.286 c -0.25582,0 -0.8688,-0.002 -1.1345,0 -0.47413,0 -0.92004,-0.0903 -1.3377,-0.27094 -0.41769,-0.18062 -0.78458,-0.42333 -1.1007,-0.72813 -0.3048,-0.31609 -0.54751,-0.67733 -0.72813,-1.0837 -0.18062,-0.41769 -0.27093,-0.86361 -0.27093,-1.3377 v -4.572 c 0,-0.47413 0.0903,-0.9144 0.27093,-1.3208 0.18062,-0.41769 0.42333,-0.77893 0.72813,-1.0837 0.31609,-0.31609 0.68298,-0.56444 1.1007,-0.74507 0.41769,-0.18062 0.8636,-0.27093 1.3377,-0.27093 0.41769,0 0.79587,0.0677 1.1345,0.2032 v -2.5061 h 2.286 z" id="path16" inkscape:connector-curvature="0" sodipodi:nodetypes="scsssscscsscsccccsscccscccc"></path>
+    <path d="m70.845 143.51v-26.467h3.4346c0.23687 0 0.54706 0.0902 0.93056 0.27071 0.3835 0.18047 0.76136 0.42862 1.1336 0.74444 0.37222 0.30455 0.68805 0.66549 0.94748 1.0828 0.27071 0.41734 0.40606 0.86288 0.40606 1.3366v19.615c0 0.47374-0.09024 0.91927-0.27071 1.3366-0.18047 0.40606-0.42298 0.767-0.72753 1.0828-0.30455 0.30454-0.66549 0.54705-1.0828 0.72752s-0.86288 0.27071-1.3366 0.27071zm4.5682-23.032c0-0.31582-0.1128-0.58653-0.33838-0.81212-0.21431-0.22559-0.47938-0.33838-0.7952-0.33838-0.16919 0-0.3553-6e-3 -0.55833-0.0169-0.20303-0.0113-0.40042-0.0169-0.59217-0.0169v21.932h1.1505c0.31582 0 0.58089-0.11279 0.7952-0.33838 0.22559-0.22559 0.33838-0.49066 0.33838-0.7952z" id="path18"></path>
   </g>
 </svg>
 
@@ -329,12 +260,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
 			
 			 
 
-			<div class="header-flexbox-secondary" ;>
-				<a href="/about" class="link-nostyle">ABOUT</a>
-				<a href="/work" class="link-nostyle">WORK</a>
-				<a href="/assets/Devin_Todd.pdf" target="_blank" class="link-nostyle">CV</a>
+			<div class="header-flexbox-secondary" ;="">
+				<a href="/DT-Portfolio/about/" class="link-nostyle">ABOUT</a>
+				<a href="/DT-Portfolio/work/" class="link-nostyle">WORK</a>
+				<a href="/DT-Portfolio/assets/Devin_Todd.pdf" target="_blank" class="link-nostyle">CV</a>
 				<button class="dark-toggle" type="button" aria-label="Toggle dark mode.">
-					<svg width="100%" height="100%" viewBox="0 0 16 16" >
+					<svg width="100%" height="100%" viewBox="0 0 16 16">
 						<circle pid="0" cx="8" cy="8" r="7.5" fill="var(--color-text)" stroke="var(--color-text)" style="pointer-events: auto;"></circle>
 						<path pid="1" d="M1 8a7 7 0 007 7V1a7 7 0 00-7 7z" fill="var(--color-background)" style="pointer-events: auto;"></path>
 					</svg>
@@ -356,12 +287,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
     
     
         <article class="project-list-item">
-            <a href=/posts/SCGeneral/ >
+            <a href="/DT-Portfolio/posts/SCGeneral/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/VVOyqngU5l-400.webp 400w, /assets/VVOyqngU5l-800.webp 800w, /assets/VVOyqngU5l-1024.webp 1024w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/VVOyqngU5l-400.jpeg 400w, /assets/VVOyqngU5l-800.jpeg 800w, /assets/VVOyqngU5l-1024.jpeg 1024w" sizes="100vw">
-<source type="image/png" srcset="/assets/VVOyqngU5l-400.png 400w, /assets/VVOyqngU5l-800.png 800w, /assets/VVOyqngU5l-1024.png 1024w" sizes="100vw">
-      <img src="/assets/VVOyqngU5l-1024.webp" width="1024" height="1024" alt="An illustration highlighting Solid Carbon's components. Created by Devin Todd using Solid Carbon materials under fair-use." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/VVOyqngU5l-400.webp 400w, /DT-Portfolio/assets/VVOyqngU5l-800.webp 800w, /DT-Portfolio/assets/VVOyqngU5l-1024.webp 1024w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/VVOyqngU5l-400.jpeg 400w, /DT-Portfolio/assets/VVOyqngU5l-800.jpeg 800w, /DT-Portfolio/assets/VVOyqngU5l-1024.jpeg 1024w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/VVOyqngU5l-400.png 400w, /DT-Portfolio/assets/VVOyqngU5l-800.png 800w, /DT-Portfolio/assets/VVOyqngU5l-1024.png 1024w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/VVOyqngU5l-1024.webp" width="1024" height="1024" alt="An illustration highlighting Solid Carbon's components. Created by Devin Todd using Solid Carbon materials under fair-use." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -378,12 +309,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/SCSocial/ >
+            <a href="/DT-Portfolio/posts/SCSocial/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/Cn7Cv4mIF4-400.webp 400w, /assets/Cn7Cv4mIF4-800.webp 800w, /assets/Cn7Cv4mIF4-1024.webp 1024w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/Cn7Cv4mIF4-400.jpeg 400w, /assets/Cn7Cv4mIF4-800.jpeg 800w, /assets/Cn7Cv4mIF4-1024.jpeg 1024w" sizes="100vw">
-<source type="image/png" srcset="/assets/Cn7Cv4mIF4-400.png 400w, /assets/Cn7Cv4mIF4-800.png 800w, /assets/Cn7Cv4mIF4-1024.png 1024w" sizes="100vw">
-      <img src="/assets/Cn7Cv4mIF4-1024.webp" width="1024" height="1024" alt="An photograph symbolizing public deliberations about the coast. By Devin Todd, adapting work by Jacques-Dillies via Unsplash." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/Cn7Cv4mIF4-400.webp 400w, /DT-Portfolio/assets/Cn7Cv4mIF4-800.webp 800w, /DT-Portfolio/assets/Cn7Cv4mIF4-1024.webp 1024w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/Cn7Cv4mIF4-400.jpeg 400w, /DT-Portfolio/assets/Cn7Cv4mIF4-800.jpeg 800w, /DT-Portfolio/assets/Cn7Cv4mIF4-1024.jpeg 1024w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/Cn7Cv4mIF4-400.png 400w, /DT-Portfolio/assets/Cn7Cv4mIF4-800.png 800w, /DT-Portfolio/assets/Cn7Cv4mIF4-1024.png 1024w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/Cn7Cv4mIF4-1024.webp" width="1024" height="1024" alt="An photograph symbolizing public deliberations about the coast. By Devin Todd, adapting work by Jacques-Dillies via Unsplash." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -400,12 +331,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/SCSystems/ >
+            <a href="/DT-Portfolio/posts/SCSystems/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/IYGL6hNAL3-400.webp 400w, /assets/IYGL6hNAL3-800.webp 800w, /assets/IYGL6hNAL3-1024.webp 1024w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/IYGL6hNAL3-400.jpeg 400w, /assets/IYGL6hNAL3-800.jpeg 800w, /assets/IYGL6hNAL3-1024.jpeg 1024w" sizes="100vw">
-<source type="image/png" srcset="/assets/IYGL6hNAL3-400.png 400w, /assets/IYGL6hNAL3-800.png 800w, /assets/IYGL6hNAL3-1024.png 1024w" sizes="100vw">
-      <img src="/assets/IYGL6hNAL3-1024.webp" width="1024" height="1024" alt="A collage symbolizing systems engineering for Solid Carbon. Created by Devin Todd, and adapting a render shared by a student." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/IYGL6hNAL3-400.webp 400w, /DT-Portfolio/assets/IYGL6hNAL3-800.webp 800w, /DT-Portfolio/assets/IYGL6hNAL3-1024.webp 1024w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/IYGL6hNAL3-400.jpeg 400w, /DT-Portfolio/assets/IYGL6hNAL3-800.jpeg 800w, /DT-Portfolio/assets/IYGL6hNAL3-1024.jpeg 1024w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/IYGL6hNAL3-400.png 400w, /DT-Portfolio/assets/IYGL6hNAL3-800.png 800w, /DT-Portfolio/assets/IYGL6hNAL3-1024.png 1024w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/IYGL6hNAL3-1024.webp" width="1024" height="1024" alt="A collage symbolizing systems engineering for Solid Carbon. Created by Devin Todd, and adapting a render shared by a student." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -422,12 +353,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/ClimateCourse/ >
+            <a href="/DT-Portfolio/posts/ClimateCourse/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/P8Nel1SD4U-400.webp 400w, /assets/P8Nel1SD4U-800.webp 800w, /assets/P8Nel1SD4U-1024.webp 1024w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/P8Nel1SD4U-400.jpeg 400w, /assets/P8Nel1SD4U-800.jpeg 800w, /assets/P8Nel1SD4U-1024.jpeg 1024w" sizes="100vw">
-<source type="image/png" srcset="/assets/P8Nel1SD4U-400.png 400w, /assets/P8Nel1SD4U-800.png 800w, /assets/P8Nel1SD4U-1024.png 1024w" sizes="100vw">
-      <img src="/assets/P8Nel1SD4U-1024.webp" width="1024" height="1024" alt="An illustration of a slice of the earth. From: Devin Todd, Vanessa Lueck, Rene Suša, Jade Chicorelli, Adriaan Bogaard. 2024. Climate Insights Course. Pacific Institute for Climate Solutions." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/P8Nel1SD4U-400.webp 400w, /DT-Portfolio/assets/P8Nel1SD4U-800.webp 800w, /DT-Portfolio/assets/P8Nel1SD4U-1024.webp 1024w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/P8Nel1SD4U-400.jpeg 400w, /DT-Portfolio/assets/P8Nel1SD4U-800.jpeg 800w, /DT-Portfolio/assets/P8Nel1SD4U-1024.jpeg 1024w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/P8Nel1SD4U-400.png 400w, /DT-Portfolio/assets/P8Nel1SD4U-800.png 800w, /DT-Portfolio/assets/P8Nel1SD4U-1024.png 1024w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/P8Nel1SD4U-1024.webp" width="1024" height="1024" alt="An illustration of a slice of the earth. From: Devin Todd, Vanessa Lueck, Rene Suša, Jade Chicorelli, Adriaan Bogaard. 2024. Climate Insights Course. Pacific Institute for Climate Solutions." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -444,12 +375,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/BCNets/ >
+            <a href="/DT-Portfolio/posts/BCNets/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/8uFKa5fng--400.webp 400w, /assets/8uFKa5fng--800.webp 800w, /assets/8uFKa5fng--1272.webp 1272w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/8uFKa5fng--400.jpeg 400w, /assets/8uFKa5fng--800.jpeg 800w, /assets/8uFKa5fng--1272.jpeg 1272w" sizes="100vw">
-<source type="image/png" srcset="/assets/8uFKa5fng--400.png 400w, /assets/8uFKa5fng--800.png 800w, /assets/8uFKa5fng--1272.png 1272w" sizes="100vw">
-      <img src="/assets/8uFKa5fng--1272.webp" width="1272" height="1272" alt="A report cover page surrounded by icons adapted from: Survive and Thrive: Why BC needs a CO2 removal strategy now (2022) by Devin Todd" loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/8uFKa5fng--400.webp 400w, /DT-Portfolio/assets/8uFKa5fng--800.webp 800w, /DT-Portfolio/assets/8uFKa5fng--1272.webp 1272w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/8uFKa5fng--400.jpeg 400w, /DT-Portfolio/assets/8uFKa5fng--800.jpeg 800w, /DT-Portfolio/assets/8uFKa5fng--1272.jpeg 1272w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/8uFKa5fng--400.png 400w, /DT-Portfolio/assets/8uFKa5fng--800.png 800w, /DT-Portfolio/assets/8uFKa5fng--1272.png 1272w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/8uFKa5fng--1272.webp" width="1272" height="1272" alt="A report cover page surrounded by icons adapted from: Survive and Thrive: Why BC needs a CO2 removal strategy now (2022) by Devin Todd" loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -466,11 +397,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/UREC/ >
+            <a href="/DT-Portfolio/posts/UREC/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/2yblC7PoSq-400.webp 400w, /assets/2yblC7PoSq-800.webp 800w, /assets/2yblC7PoSq-1207.webp 1207w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/2yblC7PoSq-400.jpeg 400w, /assets/2yblC7PoSq-800.jpeg 800w, /assets/2yblC7PoSq-1207.jpeg 1207w" sizes="100vw">
-      <img src="/assets/2yblC7PoSq-1207.webp" width="1207" height="1207" alt="A photograph of the UVic Renewable Energy Club (UREC)." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/2yblC7PoSq-400.webp 400w, /DT-Portfolio/assets/2yblC7PoSq-800.webp 800w, /DT-Portfolio/assets/2yblC7PoSq-1207.webp 1207w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/2yblC7PoSq-400.jpeg 400w, /DT-Portfolio/assets/2yblC7PoSq-800.jpeg 800w, /DT-Portfolio/assets/2yblC7PoSq-1207.jpeg 1207w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/2yblC7PoSq-1207.webp" width="1207" height="1207" alt="A photograph of the UVic Renewable Energy Club (UREC)." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -487,12 +418,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/NL/ >
+            <a href="/DT-Portfolio/posts/NL/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/UrwQKABMPT-400.webp 400w, /assets/UrwQKABMPT-800.webp 800w, /assets/UrwQKABMPT-1280.webp 1280w, /assets/UrwQKABMPT-2048.webp 2048w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/UrwQKABMPT-400.jpeg 400w, /assets/UrwQKABMPT-800.jpeg 800w, /assets/UrwQKABMPT-1280.jpeg 1280w, /assets/UrwQKABMPT-2048.jpeg 2048w" sizes="100vw">
-<source type="image/png" srcset="/assets/UrwQKABMPT-400.png 400w, /assets/UrwQKABMPT-800.png 800w, /assets/UrwQKABMPT-1280.png 1280w, /assets/UrwQKABMPT-2048.png 2048w" sizes="100vw">
-      <img src="/assets/UrwQKABMPT-2048.webp" width="2048" height="2048" alt="A collage representing cleantech R&D. Image adapted from the work of Devin Todd, and Alethia-Briones and Nazrin-Babashova via Unsplash." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/UrwQKABMPT-400.webp 400w, /DT-Portfolio/assets/UrwQKABMPT-800.webp 800w, /DT-Portfolio/assets/UrwQKABMPT-1280.webp 1280w, /DT-Portfolio/assets/UrwQKABMPT-2048.webp 2048w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/UrwQKABMPT-400.jpeg 400w, /DT-Portfolio/assets/UrwQKABMPT-800.jpeg 800w, /DT-Portfolio/assets/UrwQKABMPT-1280.jpeg 1280w, /DT-Portfolio/assets/UrwQKABMPT-2048.jpeg 2048w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/UrwQKABMPT-400.png 400w, /DT-Portfolio/assets/UrwQKABMPT-800.png 800w, /DT-Portfolio/assets/UrwQKABMPT-1280.png 1280w, /DT-Portfolio/assets/UrwQKABMPT-2048.png 2048w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/UrwQKABMPT-2048.webp" width="2048" height="2048" alt="A collage representing cleantech R&D. Image adapted from the work of Devin Todd, and Alethia-Briones and Nazrin-Babashova via Unsplash." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -509,12 +440,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/FCMaterials/ >
+            <a href="/DT-Portfolio/posts/FCMaterials/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/qzTcncMEgl-400.webp 400w, /assets/qzTcncMEgl-800.webp 800w, /assets/qzTcncMEgl-1024.webp 1024w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/qzTcncMEgl-400.jpeg 400w, /assets/qzTcncMEgl-800.jpeg 800w, /assets/qzTcncMEgl-1024.jpeg 1024w" sizes="100vw">
-<source type="image/png" srcset="/assets/qzTcncMEgl-400.png 400w, /assets/qzTcncMEgl-800.png 800w, /assets/qzTcncMEgl-1024.png 1024w" sizes="100vw">
-      <img src="/assets/qzTcncMEgl-1024.webp" width="1024" height="1024" alt="An illustration representing fuel cell transport layer fibres being oriented on demand. Adapted from images by Devin Todd and Jonny-Gios via Unsplash." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/qzTcncMEgl-400.webp 400w, /DT-Portfolio/assets/qzTcncMEgl-800.webp 800w, /DT-Portfolio/assets/qzTcncMEgl-1024.webp 1024w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/qzTcncMEgl-400.jpeg 400w, /DT-Portfolio/assets/qzTcncMEgl-800.jpeg 800w, /DT-Portfolio/assets/qzTcncMEgl-1024.jpeg 1024w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/qzTcncMEgl-400.png 400w, /DT-Portfolio/assets/qzTcncMEgl-800.png 800w, /DT-Portfolio/assets/qzTcncMEgl-1024.png 1024w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/qzTcncMEgl-1024.webp" width="1024" height="1024" alt="An illustration representing fuel cell transport layer fibres being oriented on demand. Adapted from images by Devin Todd and Jonny-Gios via Unsplash." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -531,12 +462,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/SmallCell/ >
+            <a href="/DT-Portfolio/posts/SmallCell/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/UNxx5gp8nW-400.webp 400w, /assets/UNxx5gp8nW-800.webp 800w, /assets/UNxx5gp8nW-1280.webp 1280w, /assets/UNxx5gp8nW-4016.webp 4016w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/UNxx5gp8nW-400.jpeg 400w, /assets/UNxx5gp8nW-800.jpeg 800w, /assets/UNxx5gp8nW-1280.jpeg 1280w, /assets/UNxx5gp8nW-4016.jpeg 4016w" sizes="100vw">
-<source type="image/png" srcset="/assets/UNxx5gp8nW-400.png 400w, /assets/UNxx5gp8nW-800.png 800w, /assets/UNxx5gp8nW-1280.png 1280w, /assets/UNxx5gp8nW-4016.png 4016w" sizes="100vw">
-      <img src="/assets/UNxx5gp8nW-4016.webp" width="4016" height="4016" alt="A photograph of the small mocked-up with scrap bipolar plates. By Devin Todd." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/UNxx5gp8nW-400.webp 400w, /DT-Portfolio/assets/UNxx5gp8nW-800.webp 800w, /DT-Portfolio/assets/UNxx5gp8nW-1280.webp 1280w, /DT-Portfolio/assets/UNxx5gp8nW-4016.webp 4016w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/UNxx5gp8nW-400.jpeg 400w, /DT-Portfolio/assets/UNxx5gp8nW-800.jpeg 800w, /DT-Portfolio/assets/UNxx5gp8nW-1280.jpeg 1280w, /DT-Portfolio/assets/UNxx5gp8nW-4016.jpeg 4016w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/UNxx5gp8nW-400.png 400w, /DT-Portfolio/assets/UNxx5gp8nW-800.png 800w, /DT-Portfolio/assets/UNxx5gp8nW-1280.png 1280w, /DT-Portfolio/assets/UNxx5gp8nW-4016.png 4016w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/UNxx5gp8nW-4016.webp" width="4016" height="4016" alt="A photograph of the small mocked-up with scrap bipolar plates. By Devin Todd." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -553,11 +484,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/SegmentedCell/ >
+            <a href="/DT-Portfolio/posts/SegmentedCell/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/bEaoG1H8B_-400.webp 400w, /assets/bEaoG1H8B_-800.webp 800w, /assets/bEaoG1H8B_-1280.webp 1280w, /assets/bEaoG1H8B_-4016.webp 4016w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/bEaoG1H8B_-400.jpeg 400w, /assets/bEaoG1H8B_-800.jpeg 800w, /assets/bEaoG1H8B_-1280.jpeg 1280w, /assets/bEaoG1H8B_-4016.jpeg 4016w" sizes="100vw">
-      <img src="/assets/bEaoG1H8B_-4016.webp" width="4016" height="4016" alt="A photograph of a segmented fuel cell bipolar plate. By Devin Todd." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/bEaoG1H8B_-400.webp 400w, /DT-Portfolio/assets/bEaoG1H8B_-800.webp 800w, /DT-Portfolio/assets/bEaoG1H8B_-1280.webp 1280w, /DT-Portfolio/assets/bEaoG1H8B_-4016.webp 4016w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/bEaoG1H8B_-400.jpeg 400w, /DT-Portfolio/assets/bEaoG1H8B_-800.jpeg 800w, /DT-Portfolio/assets/bEaoG1H8B_-1280.jpeg 1280w, /DT-Portfolio/assets/bEaoG1H8B_-4016.jpeg 4016w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/bEaoG1H8B_-4016.webp" width="4016" height="4016" alt="A photograph of a segmented fuel cell bipolar plate. By Devin Todd." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -574,12 +505,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/FCMaterialTest/ >
+            <a href="/DT-Portfolio/posts/FCMaterialTest/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/jNYMXR2E0B-400.webp 400w, /assets/jNYMXR2E0B-800.webp 800w, /assets/jNYMXR2E0B-1064.webp 1064w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/jNYMXR2E0B-400.jpeg 400w, /assets/jNYMXR2E0B-800.jpeg 800w, /assets/jNYMXR2E0B-1064.jpeg 1064w" sizes="100vw">
-<source type="image/png" srcset="/assets/jNYMXR2E0B-400.png 400w, /assets/jNYMXR2E0B-800.png 800w, /assets/jNYMXR2E0B-1064.png 1064w" sizes="100vw">
-      <img src="/assets/jNYMXR2E0B-1064.webp" width="1064" height="1064" alt="A researcher using Devin Todd's test hardware. Still image adapted from a Clean Energy Research Centre promotional video used under fair-use." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/jNYMXR2E0B-400.webp 400w, /DT-Portfolio/assets/jNYMXR2E0B-800.webp 800w, /DT-Portfolio/assets/jNYMXR2E0B-1064.webp 1064w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/jNYMXR2E0B-400.jpeg 400w, /DT-Portfolio/assets/jNYMXR2E0B-800.jpeg 800w, /DT-Portfolio/assets/jNYMXR2E0B-1064.jpeg 1064w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/jNYMXR2E0B-400.png 400w, /DT-Portfolio/assets/jNYMXR2E0B-800.png 800w, /DT-Portfolio/assets/jNYMXR2E0B-1064.png 1064w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/jNYMXR2E0B-1064.webp" width="1064" height="1064" alt="A researcher using Devin Todd's test hardware. Still image adapted from a Clean Energy Research Centre promotional video used under fair-use." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -596,12 +527,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/H2Lab/ >
+            <a href="/DT-Portfolio/posts/H2Lab/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/lcfvKgTvxy-400.webp 400w, /assets/lcfvKgTvxy-800.webp 800w, /assets/lcfvKgTvxy-1000.webp 1000w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/lcfvKgTvxy-400.jpeg 400w, /assets/lcfvKgTvxy-800.jpeg 800w, /assets/lcfvKgTvxy-1000.jpeg 1000w" sizes="100vw">
-<source type="image/png" srcset="/assets/lcfvKgTvxy-400.png 400w, /assets/lcfvKgTvxy-800.png 800w, /assets/lcfvKgTvxy-1000.png 1000w" sizes="100vw">
-      <img src="/assets/lcfvKgTvxy-1000.webp" width="1000" height="993" alt="A photograph of a hydrogen detector panel. By Devin Todd." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/lcfvKgTvxy-400.webp 400w, /DT-Portfolio/assets/lcfvKgTvxy-800.webp 800w, /DT-Portfolio/assets/lcfvKgTvxy-1000.webp 1000w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/lcfvKgTvxy-400.jpeg 400w, /DT-Portfolio/assets/lcfvKgTvxy-800.jpeg 800w, /DT-Portfolio/assets/lcfvKgTvxy-1000.jpeg 1000w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/lcfvKgTvxy-400.png 400w, /DT-Portfolio/assets/lcfvKgTvxy-800.png 800w, /DT-Portfolio/assets/lcfvKgTvxy-1000.png 1000w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/lcfvKgTvxy-1000.webp" width="1000" height="993" alt="A photograph of a hydrogen detector panel. By Devin Todd." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -618,11 +549,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/UBCTeaching/ >
+            <a href="/DT-Portfolio/posts/UBCTeaching/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/VUVt36t9eS-400.webp 400w, /assets/VUVt36t9eS-800.webp 800w, /assets/VUVt36t9eS-1280.webp 1280w, /assets/VUVt36t9eS-3775.webp 3775w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/VUVt36t9eS-400.jpeg 400w, /assets/VUVt36t9eS-800.jpeg 800w, /assets/VUVt36t9eS-1280.jpeg 1280w, /assets/VUVt36t9eS-3775.jpeg 3775w" sizes="100vw">
-      <img src="/assets/VUVt36t9eS-3775.webp" width="3775" height="3775" alt="An photograph of machinery. Photograph adapted from orignal by Joe DeSousa via NegativeSpace." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/VUVt36t9eS-400.webp 400w, /DT-Portfolio/assets/VUVt36t9eS-800.webp 800w, /DT-Portfolio/assets/VUVt36t9eS-1280.webp 1280w, /DT-Portfolio/assets/VUVt36t9eS-3775.webp 3775w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/VUVt36t9eS-400.jpeg 400w, /DT-Portfolio/assets/VUVt36t9eS-800.jpeg 800w, /DT-Portfolio/assets/VUVt36t9eS-1280.jpeg 1280w, /DT-Portfolio/assets/VUVt36t9eS-3775.jpeg 3775w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/VUVt36t9eS-3775.webp" width="3775" height="3775" alt="An photograph of machinery. Photograph adapted from orignal by Joe DeSousa via NegativeSpace." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -639,12 +570,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/Sensorics/ >
+            <a href="/DT-Portfolio/posts/Sensorics/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/q-Wy349eQ2-400.webp 400w, /assets/q-Wy349eQ2-800.webp 800w, /assets/q-Wy349eQ2-1280.webp 1280w, /assets/q-Wy349eQ2-1426.webp 1426w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/q-Wy349eQ2-400.jpeg 400w, /assets/q-Wy349eQ2-800.jpeg 800w, /assets/q-Wy349eQ2-1280.jpeg 1280w, /assets/q-Wy349eQ2-1426.jpeg 1426w" sizes="100vw">
-<source type="image/png" srcset="/assets/q-Wy349eQ2-400.png 400w, /assets/q-Wy349eQ2-800.png 800w, /assets/q-Wy349eQ2-1280.png 1280w, /assets/q-Wy349eQ2-1426.png 1426w" sizes="100vw">
-      <img src="/assets/q-Wy349eQ2-1426.webp" width="1426" height="1426" alt="An illustration of the sensing module from a related Bosch patent. Used under fair-use." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/q-Wy349eQ2-400.webp 400w, /DT-Portfolio/assets/q-Wy349eQ2-800.webp 800w, /DT-Portfolio/assets/q-Wy349eQ2-1280.webp 1280w, /DT-Portfolio/assets/q-Wy349eQ2-1426.webp 1426w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/q-Wy349eQ2-400.jpeg 400w, /DT-Portfolio/assets/q-Wy349eQ2-800.jpeg 800w, /DT-Portfolio/assets/q-Wy349eQ2-1280.jpeg 1280w, /DT-Portfolio/assets/q-Wy349eQ2-1426.jpeg 1426w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/q-Wy349eQ2-400.png 400w, /DT-Portfolio/assets/q-Wy349eQ2-800.png 800w, /DT-Portfolio/assets/q-Wy349eQ2-1280.png 1280w, /DT-Portfolio/assets/q-Wy349eQ2-1426.png 1426w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/q-Wy349eQ2-1426.webp" width="1426" height="1426" alt="An illustration of the sensing module from a related Bosch patent. Used under fair-use." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -661,12 +592,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/H2Infrastructure/ >
+            <a href="/DT-Portfolio/posts/H2Infrastructure/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/y8Kp5pbTC--400.webp 400w, /assets/y8Kp5pbTC--800.webp 800w, /assets/y8Kp5pbTC--1024.webp 1024w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/y8Kp5pbTC--400.jpeg 400w, /assets/y8Kp5pbTC--800.jpeg 800w, /assets/y8Kp5pbTC--1024.jpeg 1024w" sizes="100vw">
-<source type="image/png" srcset="/assets/y8Kp5pbTC--400.png 400w, /assets/y8Kp5pbTC--800.png 800w, /assets/y8Kp5pbTC--1024.png 1024w" sizes="100vw">
-      <img src="/assets/y8Kp5pbTC--1024.webp" width="1024" height="1024" alt="A photograph of the Hydrogen Assisted Renewable Power (HARP) Project in British Columbia. Adapted under fair-use from photograph by Powertech Labs." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/y8Kp5pbTC--400.webp 400w, /DT-Portfolio/assets/y8Kp5pbTC--800.webp 800w, /DT-Portfolio/assets/y8Kp5pbTC--1024.webp 1024w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/y8Kp5pbTC--400.jpeg 400w, /DT-Portfolio/assets/y8Kp5pbTC--800.jpeg 800w, /DT-Portfolio/assets/y8Kp5pbTC--1024.jpeg 1024w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/y8Kp5pbTC--400.png 400w, /DT-Portfolio/assets/y8Kp5pbTC--800.png 800w, /DT-Portfolio/assets/y8Kp5pbTC--1024.png 1024w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/y8Kp5pbTC--1024.webp" width="1024" height="1024" alt="A photograph of the Hydrogen Assisted Renewable Power (HARP) Project in British Columbia. Adapted under fair-use from photograph by Powertech Labs." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -683,12 +614,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/Bathymetry/ >
+            <a href="/DT-Portfolio/posts/Bathymetry/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/bxtAlmyHqe-400.webp 400w, /assets/bxtAlmyHqe-512.webp 512w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/bxtAlmyHqe-400.jpeg 400w, /assets/bxtAlmyHqe-512.jpeg 512w" sizes="100vw">
-<source type="image/png" srcset="/assets/bxtAlmyHqe-400.png 400w, /assets/bxtAlmyHqe-512.png 512w" sizes="100vw">
-      <img src="/assets/bxtAlmyHqe-512.webp" width="512" height="512" alt="An image of the seafloor representative of what I created. Image adapted under fair-use from: Mineral resource estimate: Solwara Project, Bismarck Sea, PNG (23 March 2012) Technical Report compiled under NI43-101 by Golder Associates for Nautilus Minerals Nuigini Ltd." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/bxtAlmyHqe-400.webp 400w, /DT-Portfolio/assets/bxtAlmyHqe-512.webp 512w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/bxtAlmyHqe-400.jpeg 400w, /DT-Portfolio/assets/bxtAlmyHqe-512.jpeg 512w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/bxtAlmyHqe-400.png 400w, /DT-Portfolio/assets/bxtAlmyHqe-512.png 512w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/bxtAlmyHqe-512.webp" width="512" height="512" alt="An image of the seafloor representative of what I created. Image adapted under fair-use from: Mineral resource estimate: Solwara Project, Bismarck Sea, PNG (23 March 2012) Technical Report compiled under NI43-101 by Golder Associates for Nautilus Minerals Nuigini Ltd." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -705,12 +636,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/Papermaking/ >
+            <a href="/DT-Portfolio/posts/Papermaking/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/YqkS-jUXTK-400.webp 400w, /assets/YqkS-jUXTK-800.webp 800w, /assets/YqkS-jUXTK-1024.webp 1024w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/YqkS-jUXTK-400.jpeg 400w, /assets/YqkS-jUXTK-800.jpeg 800w, /assets/YqkS-jUXTK-1024.jpeg 1024w" sizes="100vw">
-<source type="image/png" srcset="/assets/YqkS-jUXTK-400.png 400w, /assets/YqkS-jUXTK-800.png 800w, /assets/YqkS-jUXTK-1024.png 1024w" sizes="100vw">
-      <img src="/assets/YqkS-jUXTK-1024.webp" width="1024" height="1024" alt="A render of 3D reconstructed paper-forming fabric. By Devin Todd." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/YqkS-jUXTK-400.webp 400w, /DT-Portfolio/assets/YqkS-jUXTK-800.webp 800w, /DT-Portfolio/assets/YqkS-jUXTK-1024.webp 1024w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/YqkS-jUXTK-400.jpeg 400w, /DT-Portfolio/assets/YqkS-jUXTK-800.jpeg 800w, /DT-Portfolio/assets/YqkS-jUXTK-1024.jpeg 1024w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/YqkS-jUXTK-400.png 400w, /DT-Portfolio/assets/YqkS-jUXTK-800.png 800w, /DT-Portfolio/assets/YqkS-jUXTK-1024.png 1024w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/YqkS-jUXTK-1024.webp" width="1024" height="1024" alt="A render of 3D reconstructed paper-forming fabric. By Devin Todd." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
@@ -727,12 +658,12 @@ window.addEventListener("DOMContentLoaded", (event) => {
        
     
         <article class="project-list-item">
-            <a href=/posts/FSAE/ >
+            <a href="/DT-Portfolio/posts/FSAE/">
                 <picture class="project-image-hero">
-      <source type="image/webp" srcset="/assets/KO4LLhErO2-400.webp 400w, /assets/KO4LLhErO2-800.webp 800w, /assets/KO4LLhErO2-1280.webp 1280w, /assets/KO4LLhErO2-3056.webp 3056w" sizes="100vw">
-<source type="image/jpeg" srcset="/assets/KO4LLhErO2-400.jpeg 400w, /assets/KO4LLhErO2-800.jpeg 800w, /assets/KO4LLhErO2-1280.jpeg 1280w, /assets/KO4LLhErO2-3056.jpeg 3056w" sizes="100vw">
-<source type="image/png" srcset="/assets/KO4LLhErO2-400.png 400w, /assets/KO4LLhErO2-800.png 800w, /assets/KO4LLhErO2-1280.png 1280w, /assets/KO4LLhErO2-3056.png 3056w" sizes="100vw">
-      <img src="/assets/KO4LLhErO2-3056.webp" width="3056" height="3056" alt="A photograph of the #27 FSAE car racing at competition. Taken by a Formula UBC team member, used under fair-use." loading="lazy" decoding="async">
+      <source type="image/webp" srcset="/DT-Portfolio/assets/KO4LLhErO2-400.webp 400w, /DT-Portfolio/assets/KO4LLhErO2-800.webp 800w, /DT-Portfolio/assets/KO4LLhErO2-1280.webp 1280w, /DT-Portfolio/assets/KO4LLhErO2-3056.webp 3056w" sizes="100vw">
+<source type="image/jpeg" srcset="/DT-Portfolio/assets/KO4LLhErO2-400.jpeg 400w, /DT-Portfolio/assets/KO4LLhErO2-800.jpeg 800w, /DT-Portfolio/assets/KO4LLhErO2-1280.jpeg 1280w, /DT-Portfolio/assets/KO4LLhErO2-3056.jpeg 3056w" sizes="100vw">
+<source type="image/png" srcset="/DT-Portfolio/assets/KO4LLhErO2-400.png 400w, /DT-Portfolio/assets/KO4LLhErO2-800.png 800w, /DT-Portfolio/assets/KO4LLhErO2-1280.png 1280w, /DT-Portfolio/assets/KO4LLhErO2-3056.png 3056w" sizes="100vw">
+      <img src="/DT-Portfolio/assets/KO4LLhErO2-3056.webp" width="3056" height="3056" alt="A photograph of the #27 FSAE car racing at competition. Taken by a Formula UBC team member, used under fair-use." loading="lazy" decoding="async">
     </picture>
             </a>
             <header>
