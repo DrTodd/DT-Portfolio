@@ -1,109 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version='1.0' encoding='utf-8'?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
         <url>
             <loc>https://drtodd.github.io/DT-Portfolio/</loc>
-            <lastmod>2025-05-08T21:03:32.253Z</lastmod>
+            
         </url>
     
         <url>
             <loc>https://drtodd.github.io/DT-Portfolio/work/</loc>
-            <lastmod>2025-05-08T21:03:32.282Z</lastmod>
+            
         </url>
     
         <url>
             <loc>https://drtodd.github.io/DT-Portfolio/about/</loc>
-            <lastmod>2025-05-08T21:03:58.139Z</lastmod>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/Bathymetry/</loc>
-            <lastmod>2025-05-08T21:08:01.668Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/Bathymetry/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/BCNets/</loc>
-            <lastmod>2025-05-08T21:08:04.321Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/BCNets/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/ClimateCourse/</loc>
-            <lastmod>2025-05-08T21:08:16.748Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/ClimateCourse/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/FCMaterials/</loc>
-            <lastmod>2025-05-08T21:09:13.951Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/FCMaterials/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/FCMaterialTest/</loc>
-            <lastmod>2025-05-08T21:09:40.188Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/FCMaterialTest/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/FSAE/</loc>
-            <lastmod>2025-05-08T21:13:05.989Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/FSAE/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/H2Infrastructure/</loc>
-            <lastmod>2025-05-08T21:13:21.331Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/H2Infrastructure/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/H2Lab/</loc>
-            <lastmod>2025-05-08T21:13:25.171Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/H2Lab/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/NL/</loc>
-            <lastmod>2025-05-08T21:13:52.249Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/NL/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/Papermaking/</loc>
-            <lastmod>2025-05-08T21:14:12.896Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/Papermaking/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/SCGeneral/</loc>
-            <lastmod>2025-05-08T21:14:17.011Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/SCGeneral/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/SCSocial/</loc>
-            <lastmod>2025-05-08T21:14:22.045Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/SCSocial/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/SCSystems/</loc>
-            <lastmod>2025-05-08T21:14:27.769Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/SCSystems/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/SegmentedCell/</loc>
-            <lastmod>2025-05-08T21:14:30.174Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/SegmentedCell/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/Sensorics/</loc>
-            <lastmod>2025-05-08T21:15:47.635Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/Sensorics/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/SmallCell/</loc>
-            <lastmod>2025-05-08T21:15:47.953Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/SmallCell/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/UREC/</loc>
-            <lastmod>2025-05-08T21:16:37.842Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/UREC/</loc>
+            
         </url>
     
         <url>
-            <loc>https://drtodd.github.io/DT-Portfolio/posts/UBCTeaching/</loc>
-            <lastmod>2025-05-18T21:10:55.518Z</lastmod>
+            <loc>https://drtodd.github.io/DT-Portfolio/work/UBCTeaching/</loc>
+            
         </url>
     
 </urlset>
