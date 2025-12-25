@@ -63,6 +63,20 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
   </script>
   
+  <script>
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+if (!reduceMotion) {
+    document.addEventListener("scroll", () => {
+        const offset = window.scrollY * 0.2;
+        document.documentElement.style.setProperty("--parallax-offset", `${offset}px`);
+    });
+} else {
+    document.documentElement.style.setProperty("--parallax-offset", "0px");
+}
+
+  </script>
+  
   <script type="module">
     import PhotoSwipeLightbox from "/DT-Portfolio/assets/photoswipe/photoswipe-lightbox.esm.js";
 import PhotoSwipeDynamicCaption from "/DT-Portfolio/assets/photoswipe/photoswipe-dynamic-caption-plugin.esm.js";
@@ -314,11 +328,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
 		<main>
 			
 <section class="about">
-    <h1 style="display: none;">About</h1>
+    
     <picture class="portrait-about">
       <source type="image/webp" srcset="/DT-Portfolio/assets/sb_PRCjJs0-400.webp 400w, /DT-Portfolio/assets/sb_PRCjJs0-800.webp 800w, /DT-Portfolio/assets/sb_PRCjJs0-1280.webp 1280w, /DT-Portfolio/assets/sb_PRCjJs0-3033.webp 3033w" sizes="100vw">
 <source type="image/jpeg" srcset="/DT-Portfolio/assets/sb_PRCjJs0-400.jpeg 400w, /DT-Portfolio/assets/sb_PRCjJs0-800.jpeg 800w, /DT-Portfolio/assets/sb_PRCjJs0-1280.jpeg 1280w, /DT-Portfolio/assets/sb_PRCjJs0-3033.jpeg 3033w" sizes="100vw">
-      <img src="/DT-Portfolio/assets/sb_PRCjJs0-3033.webp" width="3033" height="3033" alt="" loading="lazy" decoding="async">
+      <img src="/DT-Portfolio/assets/sb_PRCjJs0-3033.webp" width="3033" height="3033" alt="A portrait of Devin Todd" loading="lazy" decoding="async">
     </picture>
     <div>
         <h2>👋 Hi, I’m Devin!</h2>

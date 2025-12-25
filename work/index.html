@@ -63,6 +63,20 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
   </script>
   
+  <script>
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+if (!reduceMotion) {
+    document.addEventListener("scroll", () => {
+        const offset = window.scrollY * 0.2;
+        document.documentElement.style.setProperty("--parallax-offset", `${offset}px`);
+    });
+} else {
+    document.documentElement.style.setProperty("--parallax-offset", "0px");
+}
+
+  </script>
+  
   <script type="module">
     import PhotoSwipeLightbox from "/DT-Portfolio/assets/photoswipe/photoswipe-lightbox.esm.js";
 import PhotoSwipeDynamicCaption from "/DT-Portfolio/assets/photoswipe/photoswipe-dynamic-caption-plugin.esm.js";

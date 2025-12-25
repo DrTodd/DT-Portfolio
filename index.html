@@ -63,6 +63,20 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
   </script>
   
+  <script>
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+if (!reduceMotion) {
+    document.addEventListener("scroll", () => {
+        const offset = window.scrollY * 0.2;
+        document.documentElement.style.setProperty("--parallax-offset", `${offset}px`);
+    });
+} else {
+    document.documentElement.style.setProperty("--parallax-offset", "0px");
+}
+
+  </script>
+  
   <script type="module">
     import PhotoSwipeLightbox from "/DT-Portfolio/assets/photoswipe/photoswipe-lightbox.esm.js";
 import PhotoSwipeDynamicCaption from "/DT-Portfolio/assets/photoswipe/photoswipe-dynamic-caption-plugin.esm.js";
@@ -309,17 +323,17 @@ window.addEventListener("DOMContentLoaded", (event) => {
 			
 <div class="hero-container">
     
-    <picture class="portrait ">
+    <picture class="portrait">
       <source type="image/webp" srcset="/DT-Portfolio/assets/38SdcIpKPF-400.webp 400w, /DT-Portfolio/assets/38SdcIpKPF-800.webp 800w, /DT-Portfolio/assets/38SdcIpKPF-1280.webp 1280w, /DT-Portfolio/assets/38SdcIpKPF-2991.webp 2991w" sizes="100vw">
 <source type="image/jpeg" srcset="/DT-Portfolio/assets/38SdcIpKPF-400.jpeg 400w, /DT-Portfolio/assets/38SdcIpKPF-800.jpeg 800w, /DT-Portfolio/assets/38SdcIpKPF-1280.jpeg 1280w, /DT-Portfolio/assets/38SdcIpKPF-2991.jpeg 2991w" sizes="100vw">
 <source type="image/png" srcset="/DT-Portfolio/assets/38SdcIpKPF-400.png 400w, /DT-Portfolio/assets/38SdcIpKPF-800.png 800w, /DT-Portfolio/assets/38SdcIpKPF-1280.png 1280w, /DT-Portfolio/assets/38SdcIpKPF-2991.png 2991w" sizes="100vw">
-      <img src="/DT-Portfolio/assets/38SdcIpKPF-2991.webp" width="2991" height="2991" alt="" loading="lazy" decoding="async">
+      <img src="/DT-Portfolio/assets/38SdcIpKPF-2991.webp" width="2991" height="2991" alt="A portrait of Devin Todd" loading="lazy" decoding="async">
     </picture>
 
     <div class="hero-text">
         👋 Hi, I’m Devin!
         <br>
-        <span style="visibility: hidden;">👋 </span>I practice... 
+        <span style="visibility: hidden;">👋 </span>I practice...
         <div class="wordCarousel">
             <ul class="wordCarousel-list">
                 <li>R&D</li>
